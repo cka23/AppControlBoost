@@ -1,0 +1,1274 @@
+{
+ "common-chrome": {
+  "version": "158.0.8127.37",
+  "installer_sha256": "3A6E02F372F35DD9F97B4109440C5622E02DB4C42406A7FD99D08145A5276BA0",
+  "installer_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-firefox": {
+  "version": "160.0.1",
+  "installer_sha256": "768E29619F3463C157F20C5AB1E4D480ACFB0D84F1A39EE60EF3151FED91CEB2",
+  "installer_url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0.1/win64/en-US/Firefox%20Setup%20160.0.1.exe",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-edge": {
+  "version": "156.0.4314.58",
+  "installer_sha256": "784051EBFCC8B28569127F381D515766866C4925312D35C52293382B97EEF2FB",
+  "installer_url": "https://download.microsoft.com/download/6a05dff7-d4e0-4e1f-a773-efe3f9c17341/MicrosoftEdgeEnterpriseX64.msi",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-brave": {
+  "version": "158.1.100.58",
+  "installer_sha256": "73D1280104A08CC23FCFC6EE9026E22D927575090E9B58A26682672BBE5B8523",
+  "installer_url": "https://github.com/brave/brave-browser/releases/download/v1.100.58/BraveBrowserStandaloneSilentSetup.exe",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-acrobat": {
+  "version": "26.003.22110",
+  "installer_sha256": "345617BAF5EADB2BEDDDF6AB485085385FEF9E81F742957167B20F61E3A44F9F",
+  "installer_url": "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600322110/AcroRdrDCx642600322110_MUI.exe",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-zoom": {
+  "version": "7.2.51704",
+  "installer_sha256": "8E81E0D7DC401880C4CDFD14DB8BED51308608B7AA67FA1E2CA31CCAA71CAD93",
+  "installer_url": "https://zoom.us/client/7.2.5.51704/ZoomInstallerFull.msi?archType=x64",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-vscode": {
+  "version": "1.146.0",
+  "installer_sha256": "DA5AAD5FD88244FFC35D5F6C86C5214F9CEED6520888E4C5CCF3E8678E5BBF0A",
+  "installer_url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeUserSetup-x64-1.146.0.exe",
+  "updated_at": "2026-11-23 00:02:57 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-notepadpp": {
+  "version": "8.9.9.1",
+  "installer_sha256": "CE3267F5C4E7E42F847E00F4B20234DA6150647203033CDDE34A69593EFC3152",
+  "installer_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.x64.exe",
+  "updated_at": "2026-11-23 00:02:58 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-7zip": {
+  "version": "26.06",
+  "installer_sha256": "9B697F65ECC2D9B0152F5EE96D72DDE522A7827690349D9307935DACF40F42EC",
+  "installer_url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.exe",
+  "updated_at": "2026-11-23 00:02:58 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-vlc": {
+  "version": "3.0.24",
+  "installer_sha256": "D711E1E1FE52052748C39080C7DCE63F6B7E4C315EFEDF1774A3F1957B782FF3",
+  "installer_url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.exe",
+  "updated_at": "2026-11-23 00:02:58 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-wireshark": {
+  "version": "4.6.10",
+  "installer_sha256": "C3BD915305AEF0CFAFFB29981790623F97B8AA673FB5C790B1C64A3FD85C1E94",
+  "installer_url": "https://2.na.dl.wireshark.org/win64/all-versions/Wireshark-4.6.10-x64.exe",
+  "updated_at": "2026-11-23 00:02:58 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-putty": {
+  "version": "0.85.0.0",
+  "installer_sha256": "2213EBACF962B709411D654A40087508A694756BC4E41C5A1C24AD86596B2511",
+  "installer_url": "https://the.earth.li/~sgtatham/putty/0.85/w64/putty-64bit-0.85-installer.msi",
+  "updated_at": "2026-11-23 00:02:58 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-dropbox": {
+  "version": "280.4.5053",
+  "installer_sha256": "EA79E1D4BE80C70B8620E3F996440D48E5343D3F9BA37667372ECC0E2C2909FC",
+  "installer_url": "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20280.4.5053%20Offline%20Installer.x64.exe",
+  "updated_at": "2026-11-23 00:02:59 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-teamviewer": {
+  "version": "15.83.7",
+  "installer_sha256": "3F9E7440F88E2DC3A6CD4608C1B2D35E863D28CDBCD6C93FC7253185C13B3685",
+  "installer_url": "https://download.teamviewer.com/download/version_15x/update/Update_msi_15.83.7_x64.zip",
+  "updated_at": "2026-11-23 00:02:59 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-discord": {
+  "version": "1.0.9269",
+  "installer_sha256": "9CA4FFA4DE89AFA05D3DB2E2DB80474D6950AE9445F554E09117458CEB9E8381",
+  "installer_url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9269/DiscordSetup.exe",
+  "updated_at": "2026-11-23 00:02:59 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-v-ms": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-mswin": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-mswinpub": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-msdyn": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-mshw": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-adobe": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-google": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-mozilla": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-zoom": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-vmware": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-wireshark": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-valve": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-epic": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-discord": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-apple": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-dell": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-hpinc": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-hpco": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-nvidia": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-amd": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-asus": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-corsair": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-broadcom": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-paessler": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-intel": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-realtek": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-lenovo": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-cisco": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-citrix": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-oracle": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-slack": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-v-dropbox": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-onedrive": {
+  "version": "26.195.1006.0007",
+  "installer_sha256": "17DCBBF69525A070D94A28D12464BCE00058CCDAFEA4B8262B5CC89444F0D0B8",
+  "installer_url": "https://oneclient.sfx.ms/Win/Installers/26.195.1006.0007/amd64/OneDriveSetup.exe",
+  "updated_at": "2026-11-23 00:02:59 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-teams": {
+  "version": "26288.2004.5269.3420",
+  "installer_sha256": "1C50FC703C2B861C6E850D62B27D653C1A720B05B2147A2EEEDBA7DCC814E9C3",
+  "installer_url": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26288.2004.5269.3420/MSTeams-x64.msix?p",
+  "updated_at": "2026-11-23 00:03:00 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-o-word": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-excel": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-ppt": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-outlook": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-onenote": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-access": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-visio": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-o-project": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-powertoys": {
+  "version": "0.102.3101",
+  "installer_sha256": "4B4C49A31E8B7E6A36647CCD3033ACB0AD56C306595A9409E59865C3C27D1CF2",
+  "installer_url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysUserSetup-0.102.3101.0-x64.exe",
+  "updated_at": "2026-11-23 00:03:00 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-pwsh": {
+  "version": "7.7.0.0",
+  "installer_sha256": "E00C349858C2D273F29485541ECE91617B435ACCDD5E3F156D68D5CB97740022",
+  "installer_url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0/PowerShell-7.7.0.msixbundle",
+  "updated_at": "2026-11-23 00:03:00 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-winterm": {
+  "version": "1.25.3131.0",
+  "installer_sha256": "86DA5797D0CD1C5FB6F93391517EE13B4FAD546C8AA31C7CD46D26684DD6D72F",
+  "installer_url": "https://github.com/microsoft/terminal/releases/download/v1.25.3131.0/Microsoft.WindowsTerminal_1.25.3131.0_8wekyb3d8bbwe.msixbundle",
+  "updated_at": "2026-11-23 00:03:00 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-vs2022": {
+  "version": "17.14.45",
+  "installer_sha256": "B21B79A605C527C2A4E7D93676E0EC4AAB84E51BC16229092D1626B6D47926C4",
+  "installer_url": "https://download.visualstudio.microsoft.com/download/pr/95995f57-8355-4ff5-8d90-a7e1669fb3b3/b21b79a605c527c2a4e7d93676e0ec4aab84e51bc16229092d1626b6d47926c4/vs_Community.exe",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-powerbi": {
+  "version": "2.159.1231.0",
+  "installer_sha256": "55E8EE44AA908D75EDAED4BDB1A34863F41C047951F3724F298486FE07049F2D",
+  "installer_url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-10_x64.exe",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-acropro": {
+  "version": "26.003.22110",
+  "installer_sha256": "3462AE56E25DFC8DDC8B40DBDD8FAA5D7D0A162DC6E320B56944B6AD96013D3F",
+  "installer_url": "https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/win32/Acrobat_DC_Web_x64_WWMUI.zip",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-cc": {
+  "version": "6.11.0.478.6",
+  "installer_sha256": "BF7E929294F116077806470C0B0CFB2BE0C689DB653D56B3D19C14EF878B485C",
+  "installer_url": "https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/wam/download?sapCode=KCCC&wamFeature=nuj-live",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-ps": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-ai": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-pr": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-ae": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-id": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-lrc": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-gdrive": {
+  "version": "134.0.1.0",
+  "installer_sha256": "2E723B70B0F6693FB4C9B5E63DC1F484E4874F5A8CBDD2C28C5C392517F95F8E",
+  "installer_url": "https://dl.google.com/release2/drive-file-stream/acntgjfhxz7igs6ef3bcjc565iua_134.0.1.0/setup.exe",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-thunderbird": {
+  "version": "160.0",
+  "installer_sha256": "27C75ECB78609505B1C89E139FA172B634C74EB1B5E823C49AEFEE15286111A0",
+  "installer_url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/160.0/win64/en-US/Thunderbird%20Setup%20160.0.exe",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-slack": {
+  "version": "4.53.292",
+  "installer_sha256": "6FE54526BB9548CA2946E9F17F1DE0B277C698F1E27745C4415B725D269F2749",
+  "installer_url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.53.292/SlackSetup.exe",
+  "updated_at": "2026-11-23 00:03:01 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-winscp": {
+  "version": "6.7.1",
+  "installer_sha256": "95EA85587C30AC6DD0C4B8148E16971F7854A6EEE9E68298BF007566EBBE7603",
+  "installer_url": "https://sourceforge.net/projects/winscp/files/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe/download",
+  "updated_at": "2026-11-23 00:03:02 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-git": {
+  "version": "2.56.1",
+  "installer_sha256": "C330C72E10B408CC39994BFEFDB63542B0D93D21699325C3E0BD874AF8A5A559",
+  "installer_url": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe",
+  "updated_at": "2026-11-23 00:03:02 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-node": {
+  "version": "26.13.1",
+  "installer_sha256": "0398CED8446E119478C724D1AA37C5AFD6AA1A76FCEAB12787EB9714C5ED8B45",
+  "installer_url": "https://nodejs.org/dist/v26.13.1/node-v26.13.1-x64.msi",
+  "updated_at": "2026-11-23 00:03:02 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-docker": {
+  "version": "4.100.0",
+  "installer_sha256": "CF205D1EBC269F1114BEB03924ED5FDB3763B38732115E3729A791488C3BDE5D",
+  "installer_url": "https://desktop.docker.com/win/main/amd64/246961/Docker%20Desktop%20Installer.exe",
+  "updated_at": "2026-11-23 00:03:02 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-citrix": {
+  "version": "26.10.0.31",
+  "installer_sha256": "65A7E2D4F5A39B8A432BC4A2095ECA5740153D804032275CB79CC35398EE0F75",
+  "installer_url": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Win/CitrixWorkspaceApp_x64_26.10.0.31.exe",
+  "updated_at": "2026-11-23 00:03:02 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-webex": {
+  "version": "46.11.0.36194",
+  "installer_sha256": "377C529583527CA22F11980BB3A9D73328470A9B5BA6C747C9E826B2512885A5",
+  "installer_url": "https://binaries.webex.com/WebexDesktop-Win-64-Gold/20261103185347/Webex.msi",
+  "updated_at": "2026-11-23 00:03:03 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-anydesk": {
+  "version": "9.8.4",
+  "installer_sha256": "3F5A98B1A162AE3B3ADF07DF38CD554943E79919FF4AE90B44F392959887DA22",
+  "installer_url": "https://download.anydesk.com/AnyDesk.exe",
+  "updated_at": "2026-11-23 00:03:03 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-1password": {
+  "version": "8.12.46.29",
+  "installer_sha256": "4FB634C8FA5AAB55A0AB31B32CAB14D561FAB57EE25515099F9C6DA893731825",
+  "installer_url": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.46.msi",
+  "updated_at": "2026-11-23 00:03:03 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-spotify": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "update failed",
+  "error": "no usable manifest"
+ },
+ "common-steam": {
+  "version": "2.10.91.91",
+  "installer_sha256": "7D3654531C32D941B8CAE81C4137FC542172BFA9635F169CB392F245A0A12BCB",
+  "installer_url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-epic": {
+  "version": "1.3.210.0",
+  "installer_sha256": "D55D79710EDFEAA107A62F2EA007BEC1EEEAC8B715A43C2BA3858EEC7BC60337",
+  "installer_url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-20.3.3.msi?launcherfilename=EpicInstaller-20.3.3.msi",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-virtualbox": {
+  "version": "7.2.22",
+  "installer_sha256": "AFD0FF1656CBE04ED88CE619594AE021419D97CCE89FA9BDC443E9A963F1713F",
+  "installer_url": "https://download.virtualbox.org/virtualbox/7.2.22/VirtualBox-7.2.22-175245-Win.exe",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-vmwarews": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "update failed",
+  "error": "package not found in winget"
+ },
+ "common-foxit": {
+  "version": "2026.2.1.39815",
+  "installer_sha256": "71F1A0CB46C0854E7B45D675F2EBBD5052261A0D95F6513DC6AA087C6350EE27",
+  "installer_url": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2026.2.1/FoxitPDFReader202621_L10N_Setup_x64.exe",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-ms": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-adobe": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-google": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-mozilla": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-cisco": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-logi": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-bmd": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-sony": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-rode": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-vmware": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-oracle": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-anthropic": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-vlc": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-silabs": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-zoom": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-slack": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-dropbox": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-1pw": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-docker": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-jetbrains": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-brave": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-tv": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-spotify": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-notion": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-postman": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-signal": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-telegram": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-citrix": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-iterm": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-wireshark": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-sys-lib": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-sys-apps": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-usr-bin": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-usr-libexec": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-usr-sbin": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-cryptex": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-p-ios-support": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "static",
+  "error": ""
+ },
+ "common-m-chrome": {
+  "version": "158.0.8127.37",
+  "installer_sha256": "",
+  "installer_url": "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-firefox": {
+  "version": "160.0.1",
+  "installer_sha256": "DB9A522291D82CBE9A2B2922822DEF4DB0A79D4FA3E614979039D705B13B1C25",
+  "installer_url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0.1/mac/en-US/Firefox%20160.0.1.dmg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-thunderbird": {
+  "version": "160.0",
+  "installer_sha256": "9741099FF0653382A3661BFB9FC9F588557E9A839DABDA83B627A846FE85B215",
+  "installer_url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/160.0/mac/en-US/Thunderbird%20160.0.dmg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-gdrive": {
+  "version": "134.0.1",
+  "installer_sha256": "",
+  "installer_url": "https://dl.google.com/drive-file-stream/5-percent/GoogleDrive.dmg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-edge": {
+  "version": "158.0.4370.33",
+  "installer_sha256": "33D92B7098531232CA8C4707AC7E5B0D57246947DBEC5B7E8541717F532456E8",
+  "installer_url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/775da8b5-3f9c-4856-a1c4-f4a02233035f/MicrosoftEdge-158.0.4370.33.dmg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-teams": {
+  "version": "26289.204.5281.6363",
+  "installer_sha256": "393E25369198068C2715F3F32AD200DE712A74D9184934C39CE1D5C42B39CC2C",
+  "installer_url": "https://statics.teams.cdn.office.net/production-osx/26289.204.5281.6363/MicrosoftTeams.pkg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-word": {
+  "version": "16.115.26111533",
+  "installer_sha256": "5AC9129C878FA04466AEC509D47E9DCF86638DD13B5BF55B84B2E0DA6392930C",
+  "installer_url": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.115.26111533_Installer.pkg",
+  "updated_at": "2026-11-23 00:03:04 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-excel": {
+  "version": "16.115.26110837",
+  "installer_sha256": "DE94B56243D96210C65188FC6D23DC0E1614D6746765C14584E6451B61607EFF",
+  "installer_url": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.115.26110837_Installer.pkg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-ppt": {
+  "version": "16.115.26111533",
+  "installer_sha256": "7A2ADF3064225A6461C24563EC11BF5766E547228FF2B64C9A1D6E1CB17EA2F1",
+  "installer_url": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.115.26111533_Installer.pkg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-outlook": {
+  "version": "16.115.26110837",
+  "installer_sha256": "89A5F392DE320615C0940716D19778D8C1EF3A012130147AEF87D000A0C25675",
+  "installer_url": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.115.26110837_Installer.pkg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-onedrive": {
+  "version": "26.213.1101.0008",
+  "installer_sha256": "BD70E9CB347C9954BE4AB8DB4131BE8B5D211A7B697A2642F935F230FD71EC90",
+  "installer_url": "https://oneclient.sfx.ms/Mac/Installers/26.213.1101.0008/universal/OneDrive.pkg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-vscode": {
+  "version": "1.147.0",
+  "installer_sha256": "149D944FEB599B076B48406B174E1C3CD1D510E9D673854777A20A6F4116A59A",
+  "installer_url": "https://update.code.visualstudio.com/1.147.0/darwin-arm64/stable",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-acrobat": {
+  "version": "26.001.21662",
+  "installer_sha256": "21821609BEA4210E54B1844A1129CDAFCCEA21F6D6D3D0797808F92E357D5705",
+  "installer_url": "https://ardownload2.adobe.com/pub/adobe/reader/mac/AcrobatDC/2600121662/AcroRdrDC_2600121662_MUI.dmg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-cc": {
+  "version": "6.11.0.478.6",
+  "installer_sha256": "724C1E76FF4886CB135988D1BF46D28BF33E784840E9B160B3C6932CAC62C541",
+  "installer_url": "https://ccmdls.adobe.com/AdobeProducts/StandaloneBuilds/ACCC/ESD/6.11.0/478.6/macarm64/ACCCx6_11_0_478_6.dmg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-claude": {
+  "version": "6.28899.6",
+  "installer_sha256": "AE58C31858B41DD2A3BCA78DA26433F4F17C044CE3C2486128FB82A82E457F16",
+  "installer_url": "https://downloads.claude.ai/releases/darwin/universal/6.28899.6/Claude-2f5fc59b2d1c672dd9dced86720c50f48cca0cf9.zip",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-vlc-app": {
+  "version": "3.0.24",
+  "installer_sha256": "64A89D93CDD30B0E97131743E246373DB82D6826EA882D265D46D74B136DA2B7",
+  "installer_url": "https://get.videolan.org/vlc/3.0.24/macosx/vlc-3.0.24-arm64.dmg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-webex": {
+  "version": "46.11.0.36194",
+  "installer_sha256": "",
+  "installer_url": "https://binaries.webex.com/webex-macos-apple-silicon/Webex.dmg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-vbox": {
+  "version": "7.2.22",
+  "installer_sha256": "8A5B76DE792340071DD7660D3BDEC9D71E2D259A843D286C98B4763469513A2D",
+  "installer_url": "https://download.virtualbox.org/virtualbox/7.2.22/VirtualBox-7.2.22-175245-macOSArm64.dmg",
+  "updated_at": "2026-11-23 00:03:05 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-fusion": {
+  "version": "",
+  "installer_sha256": "",
+  "installer_url": "",
+  "updated_at": "",
+  "status": "update failed",
+  "error": "cask 'vmware-fusion' not found"
+ },
+ "common-m-zoom-app": {
+  "version": "7.2.5.90525",
+  "installer_sha256": "4C26EBED8BD29CE258AC9DBE0F2B327FAD0A0734246EA588339A2CC5FD10533E",
+  "installer_url": "https://cdn.zoom.us/prod/7.2.5.90525/arm64/zoomusInstallerFull.pkg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-slack-app": {
+  "version": "4.53.292",
+  "installer_sha256": "B358A20E933A889E76FAA46C581E3D9C59F036DD3BE1692EB593DB900646006A",
+  "installer_url": "https://downloads.slack-edge.com/desktop-releases/mac/arm64/4.53.292/Slack-4.53.292-macOS.dmg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-brave-app": {
+  "version": "1.100.58.0",
+  "installer_sha256": "0E26FB4C64C42CE7A6B1A1C0E2184D334668B0C51563BCF0831437E4B9920B3F",
+  "installer_url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable-arm64/200.58/Brave-Browser-arm64.dmg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-dropbox-app": {
+  "version": "280.4.5053",
+  "installer_sha256": "FA6E9B1A5F1D78108749D2643E889AD98D67BA90C243E48B516D8491B14E4497",
+  "installer_url": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20280.4.5053.arm64.dmg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-1pw-app": {
+  "version": "8.12.46",
+  "installer_sha256": "7F44EECAE6A52409748BA5ED6B94D6B383949F628E2CCCD3D1E4798FA30461FC",
+  "installer_url": "https://downloads.1password.com/mac/1Password-8.12.46-aarch64.zip",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-spotify-app": {
+  "version": "1.3.10.2586",
+  "installer_sha256": "",
+  "installer_url": "https://download.scdn.co/SpotifyARM64.dmg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-tv-app": {
+  "version": "15.82.6",
+  "installer_sha256": "9ACD5A6CEFE859E81F85001B1B90279E02495F3829CED8DF1A3B9D37F3D5BCF1",
+  "installer_url": "https://dl.teamviewer.com/download/version_15x/update/15.82.6/TeamViewer.pkg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-notion-app": {
+  "version": "7.44.1",
+  "installer_sha256": "FE9D2DB639D202E758ECDA773A0367A07E1FAE03AE885DED1A458E77CD7B2F43",
+  "installer_url": "https://desktop-release.notion-static.com/Notion-7.44.1-arm64.dmg",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-postman-app": {
+  "version": "12.37.3",
+  "installer_sha256": "773DAB22AF4DE9760F9D7039CDFCF6A364C10D0544581F9B030BC1288F36579A",
+  "installer_url": "https://dl.pstmn.io/download/version/12.37.3/osx_arm64",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-signal-app": {
+  "version": "8.36.0",
+  "installer_sha256": "2A5F42C7C9BD8FBB10AC082877832A76842CE82E4EB1389DE335DF11E13D08E3",
+  "installer_url": "https://updates.signal.org/desktop/signal-desktop-mac-arm64-8.36.0.zip",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-telegram-app": {
+  "version": "13.2.0",
+  "installer_sha256": "614418F797EB875FAFECFCBCC21CC23A61CFAB98C70012CEFE6B94A338478C91",
+  "installer_url": "https://osx.telegram.org/updates/Telegram-13.2.0.283494.app.zip",
+  "updated_at": "2026-11-23 00:03:06 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-docker-app": {
+  "version": "4.99.0",
+  "installer_sha256": "0EDE7F9917B55C396A17B03C069CADF457A7D21904BC264C6D398FE132DA7FB9",
+  "installer_url": "https://desktop.docker.com/mac/main/arm64/245822/Docker.dmg",
+  "updated_at": "2026-11-23 00:03:07 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-jb-app": {
+  "version": "3.9.1",
+  "installer_sha256": "BD4ED78166BB9BAAB9D211B00A49FC865C187A7EF02B282007F04D889A63FA6D",
+  "installer_url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.9.1.89198-arm64.dmg",
+  "updated_at": "2026-11-23 00:03:07 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-citrix-app": {
+  "version": "26.09.0.17",
+  "installer_sha256": "C0C9D44F622226B019E6406F3DF8012DA351B17E86F2DC42B62039DF17D0A3DF",
+  "installer_url": "https://downloadplugins.citrix.com/ReceiverUpdates/Prod/Receiver/Mac/CitrixWorkspaceAppUniversal26.09.0.17.pkg",
+  "updated_at": "2026-11-23 00:03:07 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-iterm-app": {
+  "version": "3.7.9",
+  "installer_sha256": "BEB96A1089B061C80E030101947AEE13D54BA5E4058AD00B82E79633BE29D3D2",
+  "installer_url": "https://iterm2.com/downloads/stable/iTerm2-3_7_9.zip",
+  "updated_at": "2026-11-23 00:03:07 UTC",
+  "status": "ok",
+  "error": ""
+ },
+ "common-m-wireshark-app": {
+  "version": "4.6.10",
+  "installer_sha256": "1FA2B3CCA5DA747EEDB83CB023F46B876EDBF54DCC234B7D2A80863F417F036B",
+  "installer_url": "https://www.wireshark.org/download/osx/all-versions/Wireshark%204.6.10.dmg",
+  "updated_at": "2026-11-23 00:03:07 UTC",
+  "status": "ok",
+  "error": ""
+ }
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppControlUI</title>
+<link rel="icon" id="favicon" href="data:,">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<section id="login" class="login hidden">
+  <form id="loginForm" class="card login-card" autocomplete="off">
+    <h1>App<span>Control</span>UI</h1>
+    <p class="muted">Discover installed applications and plan Application Control rules.</p>
+    <label>Console URL
+      <input id="url" type="url" placeholder="https://yourtenant.sentinelone.net" required>
+    </label>
+    <label>API token
+      <input id="token" type="password" placeholder="Paste a Management API token" required>
+    </label>
+    <p class="hint"><a href="#" id="aboutLink">About &amp; disclaimer</a></p>
+    <p class="hint">Needs view access to Accounts, Sites, Groups and Application Inventory. Add Event Search access to look up hashes. The token stays in this browser tab only.</p>
+    <button class="btn primary" id="loginBtn">Sign in</button>
+    <p id="loginErr" class="error"></p>
+  </form>
+</section>
+
+<section id="app" class="hidden">
+  <header class="top">
+    <div class="brandwrap"><img id="logo" class="logo hidden" alt="SentinelOne"><div class="brand">App<span>Control</span>UI</div></div>
+    <div class="who"><button class="btn ghost" id="aboutBtn">About</button><span id="who"></span><button class="btn ghost" id="logout">Sign out</button></div>
+  </header>
+
+  <div class="scope card">
+    <label>Account <select id="account"></select></label>
+    <label>Site
+      <span class="inline">
+        <input id="siteQ" placeholder="Search sites…">
+        <select id="site"><option value="">All sites in account</option></select>
+      </span>
+    </label>
+    <label>Group <select id="group" disabled><option value="">All groups in site</option></select></label>
+    <label class="check"><input type="checkbox" id="hashes" checked> Look up hashes</label>
+    <label>Lookback <select id="days"><option value="7" selected>7 days</option><option value="14">14 days</option><option value="30">30 days</option></select></label>
+    <button class="btn primary" id="fetch">Get installed applications</button>
+  </div>
+  <div id="scopeNote" class="note hidden"></div>
+  <div id="warnings" class="note warn hidden"></div>
+
+  <main class="split">
+    <section class="pane card">
+      <div class="tabs" role="tablist">
+        <button class="tab active" id="tabInst" role="tab" data-side="left" data-tab="inst">Installed on endpoints <span class="count" id="invCount">0</span></button>
+        <button class="tab" id="tabCom" role="tab" data-side="left" data-tab="com">Common applications <span class="beta">beta</span> <span class="count" id="comCount">0</span></button>
+        <span class="grow"></span>
+        <label class="check grpsw"><input type="checkbox" id="groupBy"> Group by publisher</label>
+        <input id="filter" class="search" placeholder="Filter name, publisher, hash, path…">
+      </div>
+
+      <div id="paneInst" class="tabpane">
+        <div class="toolbar"><label class="check"><input type="checkbox" id="selAll"> Select all <span class="muted" id="selInfo"></span></label></div>
+        <div class="tablewrap"><table id="invTable">
+          <thead><tr><th class="c"></th><th>Application</th><th>Publisher</th><th>Hash (SHA-256)</th><th>Install directory</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <div id="invEmpty" class="empty">Choose a scope above and press <b>Get installed applications</b>.</div>
+      </div>
+
+      <div id="paneCom" class="tabpane hidden">
+        <div class="toolbar filters">
+          <span class="chips" id="osChips">
+            <button class="chip on" data-os="">All</button><button class="chip" data-os="WINDOWS">Windows</button><button class="chip" data-os="MACOS">macOS</button>
+          </span>
+          <select id="comVendor"><option value="">All vendors</option></select>
+          <select id="comKind"><option value="">Vendor rules + apps</option><option value="vendor">Whole-vendor rules</option><option value="learned">Learned from my inventory</option><option value="app">Individual apps</option></select>
+          <span class="grow"></span>
+          <span class="muted" id="comUpdated"></span>
+          <button class="btn ghost" id="comForget" title="Remove applications learned from inventory fetches">Forget learned</button>
+          <button class="btn" id="comUpdate">Update from internet</button>
+        </div>
+        <div id="comProgress" class="progress hidden"><div class="bar"><i id="comBar"></i></div><span id="comProgText"></span></div>
+        <details class="about"><summary>About this list</summary>
+          <p>The list refreshes when you open the page (if it is more than 12 hours old); <b>Update</b> refreshes the ticked rows, or every row shown. Versions come from winget (Windows) and Homebrew casks (macOS). <b>Whole-vendor rules</b> allow everything a vendor signs (publisher only). <b>in your console</b> = seen in your own rules or telemetry; <b>verify</b> = public knowledge, confirm it. <b>learned</b> = remembered automatically from your Installed-on-endpoints fetches (stored only on this server, in the data folder; hash is the one observed on your endpoints). This tab is <b>beta</b>. Installer hashes are for reference - rules from built-in entries use Publisher + Path + Process.</p>
+        </details>
+        <div class="toolbar"><label class="check"><input type="checkbox" id="selAllC"> Select all <span class="muted" id="selInfoC"></span></label></div>
+        <div class="tablewrap"><table id="comTable">
+          <thead><tr><th class="c"></th><th>Application</th><th>OS</th><th>Publisher / Team ID</th><th>Version</th><th>SHA-256</th><th>Install directory</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <section class="pane card">
+      <div class="tabs" role="tablist">
+        <button class="tab active" id="tabPlan" role="tab" data-side="right" data-tab="plan">Planned <span class="count" id="planCount">0</span></button>
+        <button class="tab" id="tabPub" role="tab" data-side="right" data-tab="pub">Published <span class="count" id="pubCount">0</span></button>
+        <button class="tab" id="tabExp" role="tab" data-side="right" data-tab="exp">Exports <span class="count" id="expCount">0</span></button>
+      </div>
+      <div id="lastExport" class="note ok hidden"></div>
+
+      <div id="panePlan" class="tabpane">
+        <div class="toolbar">
+          <label class="check"><input type="checkbox" id="planAll"> Select all</label>
+          <label class="check" title="Replace a specific user name in C:\Users\<name>\ or /Users/<name>/ with * so the rule covers every user profile"><input type="checkbox" id="genPath" checked> Any user folder</label>
+          <span class="grow"></span>
+          <span class="muted">Set selected to</span>
+          <button class="btn" id="setAllow" disabled>Allow</button>
+          <button class="btn" id="setBlock" disabled>Block</button>
+          <button class="btn" id="setMonitor" disabled>Monitor</button>
+          <button class="btn ghost" id="unstage" disabled>Remove</button>
+        </div>
+        <div class="tablewrap"><table id="planTable">
+          <thead><tr><th class="c"></th><th>Rule</th><th>Action</th><th class="c" title="Allow this application to spawn child processes (Allow rules only)">Spawn</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <div id="planEmpty" class="empty">Tick applications on the left and press <b>Add to plan</b>. Nothing is written until you publish.</div>
+      </div>
+
+      <div id="panePub" class="tabpane hidden">
+        <div class="toolbar">
+          <a class="btn" href="/api/rules/download" id="download">Download all rules</a>
+          <label class="btn" for="importFile">Import CSV</label>
+          <input type="file" id="importFile" accept=".csv,text/csv" class="hidden">
+          <span class="grow"></span><span class="muted" id="pubFile"></span>
+        </div>
+        <div class="tablewrap"><table id="pubTable">
+          <thead><tr><th>Rule</th><th>Action</th><th>Path / hash</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <div id="pubEmpty" class="empty">No rules in the CSV yet.</div>
+      </div>
+
+      <div id="paneExp" class="tabpane hidden">
+        <p class="hint">One file per publish - upload these to the console.</p>
+        <div class="tablewrap"><table id="expTable">
+          <thead><tr><th>File</th><th>Rules</th><th>Created</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+        <div id="expEmpty" class="empty">Nothing exported yet.</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="actionbar" id="actionbar">
+    <span class="barleft"><b id="barSel">0 selected</b> <span class="muted" id="barWhere">on the left</span></span>
+    <button class="btn" id="addBtn" disabled>Add to plan &rarr;</button>
+    <span class="grow"></span>
+    <span class="muted" id="barPlan">Plan: 0 rules</span>
+    <button class="btn primary" id="publish" disabled>Publish</button>
+  </div>
+</section>
+<dialog id="prog" class="review">
+  <div class="rv">
+    <h2>Fetching installed applications</h2>
+    <p class="muted" id="pgScope"></p>
+    <div><b id="pgStep"></b> <span id="pgStage"></span></div>
+    <div class="bar big"><i id="pgFill"></i></div>
+    <div class="pgrow"><span id="pgCount"></span><span id="pgTime" class="muted"></span></div>
+    <p class="hint" id="pgTip">Large accounts (10,000+ applications) can take several minutes. If the console rate-limits us, the tool slows down and retries automatically - leave this window open.</p>
+    <div class="rvbtns"><button class="btn" id="pgCancel">Cancel</button></div>
+  </div>
+</dialog>
+<dialog id="about" class="review">
+  <form method="dialog" class="rv">
+    <h2>About AppControlUI <span class="beta">beta</span></h2>
+    <p>AppControlUI helps you discover the applications your SentinelOne agents report and plan Application Control rules from them. Because there is no App Control API, it produces a CSV for you to review and upload to the console yourself. It never changes your console.</p>
+    <h3>Free, best-effort, no warranty</h3>
+    <p>This tool is provided free of charge, as-is, on a best-effort basis, with no warranty or support commitment of any kind. It is not an official SentinelOne product. Use it at your own risk.</p>
+    <p>Application names, publishers, versions, hashes, installation folders and the built-in Common applications list may be <b>incomplete, out of date or inaccurate</b>. Hashes can differ by version, and internet look-ups (winget, Homebrew) can be wrong or unavailable. <b>Always review every rule before uploading it</b> - especially Block rules and publisher-wide rules - and test in a limited scope first. The author and SentinelOne are not liable for any loss, outage, blocked software or other consequence arising from its use or from inaccurate information it displays.</p>
+    <h3>Your data</h3>
+    <p>Your API token stays in this browser tab and is only passed through this server to your console. Rules, exports and "learned" applications are saved in the server's data folder; they may contain names, paths and hashes from your environment, so keep that folder out of source control and share it carefully.</p>
+    <div class="rvbtns"><button class="btn primary" value="ok">Close</button></div>
+  </form>
+</dialog>
+<dialog id="review" class="review">
+  <form method="dialog" class="rv">
+    <h2>Review before publishing</h2>
+    <p class="muted" id="rvFile"></p>
+    <div id="rvStats" class="rvstats"></div>
+    <div id="rvWarn"></div>
+    <div class="tablewrap rvtable"><table id="rvTable">
+      <thead><tr><th>Rule</th><th>Action</th><th>OS</th><th>Matches on</th></tr></thead><tbody></tbody>
+    </table></div>
+    <div class="rvbtns"><button class="btn" value="cancel" id="rvCancel">Back to plan</button><button class="btn primary" id="rvOk" value="ok">Confirm &amp; publish</button></div>
+  </form>
+</dialog>
+<div id="toast" class="toast hidden"></div>
+<script src="/app.js"></script>
+</body>
+</html>

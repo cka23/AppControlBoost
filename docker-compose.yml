@@ -1,0 +1,17 @@
+services:
+  appcontrolui:
+    build: .
+    image: appcontrolui:latest
+    container_name: appcontrolui
+    ports:
+      - "127.0.0.1:8080:8080"   # localhost only; there is no login in front of the CSV store
+    volumes:
+      - ./data:/data            # rules CSV + per-publish exports land here
+      - ./brand:/app/static/brand:ro   # drop logo.svg / logo.png here for the header icon
+    environment:
+      # GITHUB_TOKEN: "ghp_..."                  # optional: raises the GitHub rate limit used by 'Update from internet'
+      # S1_VERIFY_TLS: "false"                  # only if a corporate proxy re-signs TLS
+      # ALLOWED_CONSOLE_SUFFIXES: ".sentinelone.net"
+      RULES_FILENAME: app_control_rules.csv
+      INVENTORY_WORKERS: "${INVENTORY_WORKERS:-4}"   # parallel console lookups; lower (2) if you see 429 rate-limit errors
+    restart: unless-stopped
